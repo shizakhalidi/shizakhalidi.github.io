@@ -27,9 +27,9 @@
 
 
 .contactInfo{
-	text-align: center;
 	position: relative;
-	left: 220px;
+	/* left: 220px; */
+	margin:0 auto;
 }
 
 /* START ABOUT */
@@ -43,27 +43,36 @@
 	opacity: 0.6;
   }
 
+  .title100{
+	  position: relative;
+	  text-align: center;
+  }
+
   .tm-about h1{
 	color: white;
 	position: relative;
 	text-shadow: white;
-	left: 50px;
+	margin: 0 auto;
+	text-align: center;
   }
+	
   .tm-about p{
 	color: white;
 	text-shadow: rgb(34, 33, 33) 0px 0px 10px;
 	position: relative;
-	left: 50px;
+	
+	text-align: center;
+	
   }
   .tm-about p mark{
 	  background-color: rgba(101, 31, 148, 0.5);
 	  position: relative;
-	left: 70px;
+	  text-align: center;
   }
   .tm-about h1 mark{
 	background-color: rgba(188, 111, 240, 0.5);
 	position: relative;
-	left: 50px;
+	
 }
   /* END ABOUT */
 
